@@ -45,10 +45,10 @@ const Navbar = () => {
         <Link 
           to="/" 
           className="text-2xl font-bold text-scienceBlue flex items-center gap-2"
-          aria-label="Portal Científico - Página principal"
+          aria-label="ECODigital - Página principal"
         >
-          <span className="w-8 h-8 rounded-full bg-scienceBlue flex items-center justify-center text-white text-sm">PC</span>
-          <span className="hidden sm:inline">Portal Científico</span>
+          <span className="w-8 h-8 rounded-full bg-scienceBlue flex items-center justify-center text-white text-sm">EC</span>
+          <span className="hidden sm:inline">ECODigital</span>
         </Link>
         
         {/* Navegación para desktop */}
