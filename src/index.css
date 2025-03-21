@@ -14,7 +14,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 47% 11%;
 
-    --primary: 223 36% 37%;
+    --primary: 178 20% 20%; /* Changed to dark green */
     --primary-foreground: 210 40% 98%;
 
     --secondary: 60 100% 91%;
@@ -31,7 +31,7 @@
 
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 222 84% 48%;
+    --ring: 178 20% 20%; /* Changed to match primary */
 
     --radius: 0.6rem;
   }

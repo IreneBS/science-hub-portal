@@ -58,7 +58,7 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				// Colores personalizados para el proyecto
-				scienceBlue: '#495773',
+				scienceBlue: '#283d3f', // Changed from #495773 to dark green
 				scienceYellow: '#fbffd0',
 				scienceBeige: '#d3c596',
 				scienceRed: '#c8432e',
