@@ -9,7 +9,16 @@ const Home = () => {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-radial from-scienceBlue/10 to-transparent" />
+        {/* Background Image */}
+        <div 
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
+          style={{ 
+            backgroundImage: 'url(https://images.unsplash.com/photo-1523712999610-f77fbcfc3843)', 
+            filter: 'brightness(0.7)'
+          }}
+        />
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-gradient-radial from-scienceBlue/30 to-black/70" />
         <div className="container mx-auto px-6 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -17,10 +26,10 @@ const Home = () => {
             transition={{ duration: 0.8 }}
             className="text-center"
           >
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-scienceBlue mb-6">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
               Portal Científico
             </h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-scienceBlue/80 mb-8 max-w-3xl mx-auto">
+            <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Explorando los límites del conocimiento a través de la investigación innovadora
             </p>
             <Button className="science-button text-lg" asChild>
