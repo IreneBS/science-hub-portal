@@ -27,10 +27,10 @@ const Home = () => {
             className="text-center"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-              Portal Científico
+              ECODigital
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-              Explorando los límites del conocimiento a través de la investigación innovadora
+              Development and validation of advanced and low-cost digital technologies for efficient and sustainable agro-ecosystem management
             </p>
             <Button className="science-button text-lg" asChild>
               <a href="#about">
