@@ -1,11 +1,21 @@
 
-export const newsItems = [
+export interface NewsItem {
+  id: number;
+  title: string;
+  date: string;
+  summary: string;
+  content: string;
+  imageUrl: string;
+}
+
+export const newsItems: NewsItem[] = [
   {
     id: 1,
     title: "Avance significativo en tecnología de sensores",
     date: "15 de mayo, 2024",
     summary: "Nuestro equipo ha conseguido desarrollar un nuevo tipo de sensor que mejora la precisión en un 35%.",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    imageUrl: "https://tusitioweb.com/imagenes/sensores-avanzados.jpg"
   },
   {
     id: 2,
@@ -13,6 +23,7 @@ export const newsItems = [
     date: "2 de abril, 2024",
     summary: "Hemos iniciado una nueva colaboración con investigadores del departamento de Física Aplicada.",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    imageUrl: "https://tusitioweb.com/imagenes/colaboracion-cambridge.jpg"
   },
   {
     id: 3,
@@ -20,5 +31,6 @@ export const newsItems = [
     date: "28 de marzo, 2024",
     summary: "Nuestro último estudio ha sido aceptado por una de las revistas científicas más prestigiosas.",
     content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.",
+    imageUrl: "https://tusitioweb.com/imagenes/publicacion-nature.jpg"
   },
 ];

@@ -35,6 +35,14 @@ const NewsDetail = () => {
         transition={{ duration: 0.5 }}
       >
         <Card className="glass-panel p-6 mb-8">
+          <div className="w-full h-80 mb-6 overflow-hidden rounded-lg">
+            <img 
+              src={newsItem.imageUrl} 
+              alt={newsItem.title}
+              className="w-full h-full object-cover" 
+            />
+          </div>
+          
           <div className="flex items-center gap-2 text-scienceBlue mb-4">
             <Calendar size={20} />
             <span>{newsItem.date}</span>

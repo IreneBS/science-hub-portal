@@ -30,6 +30,13 @@ const News = () => {
           >
             <Link to={`/novedades/${item.id}`} className="block h-full">
               <Card className="glass-panel card-hover h-full transition-all duration-200 hover:shadow-lg cursor-pointer">
+                <div className="w-full h-48 overflow-hidden rounded-t-lg">
+                  <img 
+                    src={item.imageUrl} 
+                    alt={item.title}
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                  />
+                </div>
                 <CardHeader>
                   <div className="flex items-center gap-2 text-scienceBlue mb-2">
                     <Newspaper size={20} />
