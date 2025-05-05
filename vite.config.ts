@@ -33,6 +33,7 @@ export default defineConfig(({ mode }) => {
       'import.meta.env.VITE_EMAILJS_PUBLIC_KEY': JSON.stringify(env.VITE_EMAILJS_PUBLIC_KEY),
       'import.meta.env.VITE_EMAILJS_TEMPLATE_ID_REPLY': JSON.stringify(env.VITE_EMAILJS_TEMPLATE_ID_REPLY),
     },
-    base: "/science-hub-portal/", // añadido para deploy - video YouTube
+    base: mode === 'development' ? '/' : '/science-hub-portal/',
+    
   };
 });
