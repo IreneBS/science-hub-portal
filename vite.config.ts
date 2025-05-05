@@ -32,6 +32,7 @@ export default defineConfig(({ mode }) => {
       'import.meta.env.VITE_EMAILJS_TEMPLATE_ID': JSON.stringify(env.VITE_EMAILJS_TEMPLATE_ID),
       'import.meta.env.VITE_EMAILJS_PUBLIC_KEY': JSON.stringify(env.VITE_EMAILJS_PUBLIC_KEY),
       'import.meta.env.VITE_EMAILJS_TEMPLATE_ID_REPLY': JSON.stringify(env.VITE_EMAILJS_TEMPLATE_ID_REPLY),
+      'import.meta.env.VITE_RECAPTCHA_SITE_KEY': JSON.stringify(env.VITE_RECAPTCHA_SITE_KEY),
     },
     base: mode === 'development' ? '/' : '/science-hub-portal/',
     
