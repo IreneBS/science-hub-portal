@@ -13,7 +13,7 @@ export const newsItems = [
       summary: "Tras la preparación del ensayo de uno de los escenarios piloto, toca revisar que todo va como previsto.",
       content: "Especies de arvenses han sido sembradas para llevar a cabo la caracterización de recursos florales para cuantificar la potencialidad de atracción de polinizadores y otros insectos beneficiosos",
       text: null,
-      img: getImageUrl("DSC04571.JPG"),
+      img: getImageUrl(`${import.meta.env.BASE_URL}images/DSC04571.JPG`),
       alt: "definicion foto"
 
     },
