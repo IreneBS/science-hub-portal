@@ -1,7 +1,8 @@
 import { env } from "@/lib/env";
 
 // Función para construir la URL completa de la imagen
-const getImageUrl = (path: string) => `${env.imageServer}/${path}`;
+//const getImageUrl = (path: string) => `${env.imageServer}/${path}`;
+const getImageUrl = (path: string) => `${path}`;
 
 // aqui se añade una noticia nueva con su texto e imagen - IBS y ya esta habilitado que se abra una nueva pagina con la noticia ampliada 
 
