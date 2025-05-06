@@ -27,7 +27,8 @@ const Home = () => {
             className="text-center"
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6">
-              ECODigital
+            ECODigital 
+            {/* <span style={{color: "green"}}>ECO</span><span style={{color: "black"}}>Digital</span> */}
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
               Development and validation of advanced and low-cost digital technologies for efficient and sustainable agro-ecosystem management

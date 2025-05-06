@@ -50,7 +50,7 @@ const Navbar = () => {
           aria-label="ECODigital - Página principal"
         >
           <img src={miLogo} alt="Logo ECODigital" className="w-10 h-10 squared-full" />
-          <span className="hidden sm:inline">ECODigital</span> 
+          <span className="hidden sm:inline"><span style = {{color: 'green'}}>ECO</span><span style = {{color: 'black'}}>Digital</span></span> 
           {/* <span className="w-8 h-8 rounded-full bg-scienceBlue flex items-center justify-center text-white text-sm">EC</span> */}
           {/* <span className="hidden sm:inline">ECODigital</span> */}
         </Link>
@@ -108,7 +108,7 @@ const Navbar = () => {
                 {link.name}
               </Link>
             ))}
-            <div className="mt-4 flex flex-col gap-2 px-4">
+            {/* <div className="mt-4 flex flex-col gap-2 px-4">
               <Link to="/login">
                 <Button variant="outline" className="w-full justify-start">
                   Iniciar sesión
@@ -119,7 +119,7 @@ const Navbar = () => {
                   Registro
                 </Button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       )}
